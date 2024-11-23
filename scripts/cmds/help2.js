@@ -8,7 +8,7 @@ const { getPrefix } = global.utils;
 
 const { commands, aliases } = global.GoatBot;
 
-const doNotDelete = "[ 𝐀𝐌𝐈𝐍𝐔𝐋-𝐗-𝐁𝐎𝐓 ]";
+const doNotDelete = "[ 𝐀𝐊𝐈-𝐁𝐎𝐓-𝐗-𝐁𝐎𝐓 ]";
 
  
 
@@ -72,7 +72,7 @@ module.exports = {
 
  
 
-      msg += `╔═════•| 💛 |•═════╗\n★𝐀𝐌𝐈𝐍𝐔𝐋-𝐗-𝐁𝐎𝐓★\n╚═════•| 💛 |•═════╝`;
+      msg += `╔═════•| ☯ |•═════╗\n★𝐀𝐊𝐈-𝐗-𝐁𝐎𝐓★\n╚═════•| ☯ |•═════╝`;
 
  
 
@@ -124,9 +124,9 @@ module.exports = {
 
       msg += `\n\n▬▬▬▬▬▬▬▬▬▬▬▬\n\n▬▬▬▬▬▬▬▬▬▬▬▬\n\n🧿𝐓𝐎𝐓𝐀𝐋-𝐂𝐌𝐃🧿 ${totalCommands} 🧿\n\n`;
 
-      msg += `💌 𝐁𝐎𝐓-𝐀𝐃𝐌𝐈𝐍-𝐂𝐎𝐍𝐓𝐄𝐊 💌\n\n`;
+      msg += `💌 𝐁𝐎𝐓-𝐀𝐃𝐌𝐈𝐍-𝐃𝐨𝐧𝐫𝐞𝐥 𝐈𝐧𝐭𝐚 💌\n\n`;
 
-      msg += `🟡𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊-𝐋𝐈𝐍𝐊🟡\n\nhttps://m.me/100071880593545\n\n⚪𝐌𝐄𝐒𝐒𝐄𝐍𝐆𝐀𝐑𝐄-𝐋𝐈𝐍𝐊⚪\n\nm.me/𝐀𝐌𝐈𝐍𝐔𝐋-𝐗-𝐁𝐎𝐓\n\n🔴𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏🔴\n\nwa.me/+8801704407109\n\n▬▬▬▬▬▬▬▬▬▬▬▬`;
+      msg += `🟡𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊-𝐋𝐈𝐍𝐊🟡\n\nhttps://www.facebook.com/profile.php?id=100094202834302\n\n⚪𝐌𝐄𝐒𝐒𝐄𝐍𝐆𝐀𝐑𝐄-𝐋𝐈𝐍𝐊⚪\n\nm.me/𝐀𝐊𝐈-𝐗-𝐁𝐎𝐓\n\n🔴𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏🔴\n\nwa.me/+639516529306\n\n▬▬▬▬▬▬▬▬▬▬▬▬`;
 
  
 
@@ -136,7 +136,7 @@ module.exports = {
 
  
 
-"https://i.imgur.com/7I0lQf6.jpeg"
+"https://imgur.com/a/32Dy7Sz.jpeg"
 
 ];
 
@@ -190,11 +190,11 @@ module.exports = {
 
  
 
-        const response = `╭━─━─≪𝐀𝐋𝐋-𝐂𝐌𝐃-𝐂𝐊≫─━─━❯❯\n├─❯ Name: ${configCommand.name} \n├─❯ Description: ${longDescription} \n├─❯ Other names: ${configCommand.aliases ? configCommand.aliases.join(", ") : "Do not have"} \n├─❯ Other names in your group: Version: ${configCommand.version || "1.0"} \n├─❯ Role: ${roleText} \n├─❯ Time per command: ${configCommand.countDown || 1}s \n├─❯ Author: ${author} \n├─❯ Usage ${usage}\n╰━─━─≪𝐀𝐌𝐈𝐍𝐔𝐋-𝐗-𝐁𝐎𝐓≫─━─━❯❯`;
+        const response = `╭━─━─≪𝐀𝐋𝐋-𝐂𝐌𝐃-𝐂𝐊≫─━─━❯❯\n├─❯ Name: ${configCommand.name} \n├─❯ Description: ${longDescription} \n├─❯ Other names: ${configCommand.aliases ? configCommand.aliases.join(", ") : "Do not have"} \n├─❯ Other names in your group: Version: ${configCommand.version || "1.0"} \n├─❯ Role: ${roleText} \n├─❯ Time per command: ${configCommand.countDown || 1}s \n├─❯ Author: ${author} \n├─❯ Usage ${usage}\n╰━─━─≪𝐀𝐊𝐈-𝐗-𝐁𝐎𝐓≫─━─━❯❯`;
 
  
 
-        await message.reply({body:response,attachment: await global.utils.getStreamFromURL("https://i.imgur.com/7I0lQf6.jpeg")})
+        await message.reply({body:response,attachment: await global.utils.getStreamFromURL("https://imgur.com/a/32Dy7Sz.jpg")})
 
       }
 
