@@ -35,7 +35,7 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100071880593545",
+    "100094202834302",
     "1"
   ],
   "whiteListMode": {
@@ -43,7 +43,7 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "𝐀𝐌𝐈𝐍𝐔𝐋-𝐁𝐎𝐓 ",
+  "nickNameBot": "𝐀𝐊𝐈-𝐁𝐎𝐓",
   "prefix": "#",
   "database": {
     "type": "sqlite",
